@@ -42,4 +42,4 @@ jobs:
         run: npm install --global surge
 
       - name: Deploy to Surge
-        run: surge ./build react-expense-tracker-adil.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./build mei-expense-tracker-app.surge.sh --token ${{ secrets.SURGE_TOKEN }}
