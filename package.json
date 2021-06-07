@@ -14,7 +14,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "postbuild": "babel src -d lib",
+    "prebuild": "babel src -d lib",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
